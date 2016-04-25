@@ -1,0 +1,202 @@
+html, body {
+	overflow-x:hidden;
+	width:100%;
+}
+
+body {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	color:#333333;
+}
+
+h1 {
+	font-family: "Lobster", cursive;
+	color:#F05F3D;
+}
+
+h2 {
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+}
+
+h5{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+h6{
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+p{
+	font-size:14px;
+	font-weight:100;
+	line-height:18px;
+}
+
+img{
+	max-width:90%;
+	height:auto;
+}
+
+
+/* TOP */
+header{
+	background-color:#333333;
+}
+header a{
+	display:block;
+	margin: 1em auto 1em;
+
+}
+span.centerimage{
+	text-align:center;
+}
+
+/* HERO */
+.hero {
+	background-image:radial-gradient(circle at bottom right, rgba(234,72,40,0.25), rgba(206,182,155,0.25));
+	width:100%;
+}
+
+.hero .row .six.columns h1{
+	display:block;
+	padding:40px 20px 0px 20px;
+	letter-spacing: 1px;
+}
+
+.hero .row .six.columns img{
+	display:block;
+	text-align:center;
+	margin:3em auto 0;
+}
+.hero .row .six.columns .subhead{
+	font-weight: bold;
+	padding:0px 20px 0px 20px;
+}
+.hero .row .six.columns p{
+	padding:0px 20px 20px 20px;
+}
+
+
+
+/* STORY */
+.story .row h2{
+	color:#7CCDCD;
+	text-align:center;
+	padding:40px auto 10px 20px;
+}
+
+.story .row .six.columns img{
+	padding: 10px 10px 20px 10px;
+}
+
+.story .row .six.columns .text{
+	max-width: 600px;
+}
+
+.story .row .six.columns .text p{
+	padding:10px 20px 0px 20px;
+	font-size:12px;
+	line-height: 20px;
+}
+.story .row .six.columns .text .storysign{
+	font-family:"Lobster", cursive;
+	color:#FFCE00;
+	line-height: 0px;
+}
+.story .row .six.columns .text .storysignname{
+	font-weight:bold;
+	line-height: 0px;
+}
+
+/* INGREDIENTS */
+.ingredients{
+	background-color:#CEB69B;
+}
+
+.ingredients h2{
+	color:#F05F3D;
+	text-align:center;
+	padding:40px auto 10px 20px;
+}
+
+.ingredients .row .four.columns img{
+	padding: 20px;
+}
+
+.ingredients .row .four.columns h5{
+	color:white;
+	letter-spacing:1px;
+	text-align: center;
+}
+.ingredients .row .four.columns p{
+	font-weight: 200;
+	font-size:15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+/* PRODUCTS */
+.products{
+	background-color: rgba(124, 205, 205, .12);
+}
+.products h2{
+	color:#7CCDCD;
+	text-align:center;
+	padding:40px auto 10px 20px;
+}
+
+.products .row .three.columns img{
+
+}
+
+.products .row .three.columns h6{
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.products .row .three.columns .cost{
+	text-align: center;
+	font-weight: 400;
+	color:#C0C0C0;
+	font-size: 24px;
+
+}
+
+.products .row .three.columns form .quantity{
+
+}
+
+.products .row .three.columns .button-primary{
+
+}
+
+
+/* FOOTER */
+footer{
+	background-color:#333333;
+}
+
+footer .icons{
+	margin-left: 60px;
+	padding-top:3em;
+}
+
+footer .icons .hexagon{
+	display:inline;
+}
+
+footer p{
+	color: #FFF6E1;
+	text-align:center;
+	font-size: 12px;
+	font-weight: 300;
+	padding-top:20px;
+	padding-bottom:60px;
+}
+
